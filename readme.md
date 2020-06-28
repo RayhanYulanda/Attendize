@@ -33,7 +33,6 @@ Flutter and React Native Developer. Passionate #Flutter, #Android Developer, #We
 ### Show some :heart: and star the repo to support the project
 
 [![GitHub stars](https://img.shields.io/github/stars/rayhanyulanda/Attendize.svg?style=social&label=Star)](https://github.com/rayhanyulanda/Attendize) [![GitHub forks](https://img.shields.io/github/forks/rayhanyulanda/Attendize.svg?style=social&label=Fork)](https://github.com/rayhanyulanda/Attendize) [![GitHub watchers](https://img.shields.io/github/watchers/rayhanyulanda/Attendize.svg?style=social&label=Watch)](https://github.com/rayhanyulanda/Attendize) [![GitHub followers](https://img.shields.io/github/followers/rayhanyulanda.svg?style=social&label=Follow)](https://github.com/rayhanyulanda/Attendize)
-[![Twitter Follow](https://img.shields.io/twitter/follow/rayhanyulanda.svg?style=social)](https://twitter.com/rayhanyulanda)
 
 ### Current Features (v1.X.X)
 ---
