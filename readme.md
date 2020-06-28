@@ -30,17 +30,6 @@ Flutter and React Native Developer. Passionate #Flutter, #Android Developer, #We
 >
 > - [PayPal](https://www.paypal.me/RayhanYulanda/)
 
-
-> Please report bugs here: https://github.com/Attendize/Attendize/issues. Detailed bug reports are more likely to be looked at. Simple creating an issue and saying "it doesn't work" is not useful. Providing some steps to reproduce your problem as well as details about your operating system, PHP version etc can help. <br />
-
-> Take a look http://www.attendize.com/troubleshooting.html and follow the http://www.attendize.com/getting_started.html guide to make sure you have configured attendize correctly.  
-
-Documentation Website: http://www.attendize.com<br />
-Demo Event Page: http://attendize.website/e/799/attendize-test-event-w-special-guest-attendize<br />
-Demo Back-end Demo: http://attendize.website/signup<br />
-
-*Attendize* is an open-source event ticketing and event management application built using the Laravel PHP framework. Attendize was created to offer event organisers a simple solution to managing general admission events, without paying extortionate service fees.
-
 ### Current Features (v1.X.X)
 ---
  - Beautiful mobile friendly event pages
@@ -67,6 +56,16 @@ Demo Back-end Demo: http://attendize.website/signup<br />
  - Public event listings page for organisers
  - Ability to ask custom questions during checkout
  - Browser based QR code scanner for door management
+ 
+> Please report bugs here: https://github.com/Attendize/Attendize/issues. Detailed bug reports are more likely to be looked at. Simple creating an issue and saying "it doesn't work" is not useful. Providing some steps to reproduce your problem as well as details about your operating system, PHP version etc can help. <br />
+
+> Take a look http://www.attendize.com/troubleshooting.html and follow the http://www.attendize.com/getting_started.html guide to make sure you have configured attendize correctly.  
+
+Documentation Website: http://www.attendize.com<br />
+Demo Event Page: http://attendize.website/e/799/attendize-test-event-w-special-guest-attendize<br />
+Demo Back-end Demo: http://attendize.website/signup<br />
+
+*Attendize* is an open-source event ticketing and event management application built using the Laravel PHP framework. Attendize was created to offer event organisers a simple solution to managing general admission events, without paying extortionate service fees.
 
 ### Contribution
 ---
