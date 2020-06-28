@@ -25,6 +25,7 @@ Route::group(
         'uses' => 'InstallerController@postInstaller',
     ]);
 
+
     /*
      * Stripe connect return
      */
@@ -709,9 +710,10 @@ Route::group(
         });
     });
 
-    Route::get('/', [
+    /*Route::get('/', [
         'as'   => 'index',
         'uses' => 'IndexController@showIndex',
-    ]);
+    ]);*/
+    Route::redirect('/', '/o/1');
 });
 

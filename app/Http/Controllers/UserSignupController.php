@@ -24,11 +24,11 @@ class UserSignupController extends Controller
         $this->middleware('guest');
     }
 
-    public function showSignup()
+    /*public function showSignup()
     {
         $is_attendize = Utils::isAttendize();
         return view('Public.LoginAndRegister.Signup', compact('is_attendize'));
-    }
+    }*/
 
     /**
      * Creates an account.
@@ -37,7 +37,7 @@ class UserSignupController extends Controller
      *
      * @return Redirect
      */
-    public function postSignup(Request $request)
+    /*public function postSignup(Request $request)
     {
         $is_attendize = Utils::isAttendize();
         $this->validate($request, [
@@ -73,7 +73,7 @@ class UserSignupController extends Controller
         session()->flash('message', 'Success! You can now login.');
 
         return redirect('login');
-    }
+    }*/
 
     /**
      * Confirm a user email

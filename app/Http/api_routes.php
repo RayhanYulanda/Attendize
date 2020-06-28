@@ -1,7 +1,11 @@
 <?php
 
-Route::group(['prefix' => 'api', 'middleware' => 'auth:api'], function () {
 
+/*
+ * User Login
+ */
+Route::get('/api/secure', 'API\AuthApiController@secure');
+Route::group(['prefix' => 'api', 'middleware' => ['auth:api']], function () {
     /*
      * ---------------
      * Organisers
@@ -14,7 +18,9 @@ Route::group(['prefix' => 'api', 'middleware' => 'auth:api'], function () {
      * Events
      * ---------------
      */
-    Route::resource('events', 'API\EventsApiController');
+    Route::get('events/showall', 'API\EventsApiController@showall');
+    Route::get('events/showtoday', 'API\EventsApiController@showtoday');
+    /*Route::resource('events', 'API\EventsApiController');*/
 
 
     /*
@@ -22,7 +28,9 @@ Route::group(['prefix' => 'api', 'middleware' => 'auth:api'], function () {
      * Attendees
      * ---------------
      */
-    Route::resource('attendees', 'API\AttendeesApiController');
+    Route::get('attendees/showattendeesevent', 'API\AttendeesApiController@showattendeesevent');
+    Route::get('attendees/checkinattendee', 'API\AttendeesApiController@checkinattendee');
+    /*Route::resource('attendees', 'API\AttendeesApiController');*/
 
 
     /*

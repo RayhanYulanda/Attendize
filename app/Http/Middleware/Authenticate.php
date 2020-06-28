@@ -17,9 +17,28 @@ class Authenticate
      */
     public function handle($request, Closure $next, $guard = null)
     {
-        if (Auth::guard($guard)->guest()) {
+        if (request()->header('App-Token') != app_token() && $request->is('api/*')){
+            return response()->json([
+                'success'=>false,
+                'status'=>401,
+                'message'=>'Token Denied !',
+                /*'response'=>[
+                    'total'=>0,
+                    'data'=>[]
+                ]*/
+            ]);
+        }
+        elseif (Auth::guard($guard)->guest()) {
             if ($request->is('api/*') || $request->ajax() || $request->wantsJson()) {
-                return response('Unauthorized.', 401);
+                return response()->json([
+                    'success'=>false,
+                    'status'=>401,
+                    'message'=>'Unauthenticated user',
+                    /*'response'=>[
+                        'total'=>0,
+                        'data'=>[]
+                    ]*/
+                ]);
             } else {
                 return redirect()->guest('login');
             }
