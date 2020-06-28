@@ -8,6 +8,28 @@
 Open-source ticket selling and event management platform
 </p>
 
+### Currently I Changes
+---
+ - Just for one organization id=1 (change in route)
+ - Add API for mobile application (Flutter)
+ 
+## Flutter Project Created & Maintained By
+
+### Rayhan Yulanda
+
+Flutter and React Native Developer. Passionate #Flutter, #Android Developer, #Web Developer, #Entrepreneur, #Freelancer
+
+<a href="https://twitter.com/rayhanyulanda"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
+<a href="https://linkedin.com/in/rayhan-yulanda"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
+<a href="https://facebook.com/rayhanyulanda"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
+<a href="https://instagram.com/rayhanyulanda"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
+
+# Donate
+
+> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+>
+> - [PayPal](https://www.paypal.me/RayhanYulanda/)
+
 
 > Please report bugs here: https://github.com/Attendize/Attendize/issues. Detailed bug reports are more likely to be looked at. Simple creating an issue and saying "it doesn't work" is not useful. Providing some steps to reproduce your problem as well as details about your operating system, PHP version etc can help. <br />
 
