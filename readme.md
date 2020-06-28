@@ -8,14 +8,14 @@
 Open-source ticket selling and event management platform
 </p>
 
-### Currently I Changes
+### 📃 Currently I Changed
 ---
  - Just for one organization id=1 (change in route)
  - Add API for mobile application (Flutter)
  
 ## Flutter Project Created & Maintained By
 
-### Rayhan Yulanda
+### 👨 Rayhan Yulanda
 
 Flutter and React Native Developer. Passionate #Flutter, #Android Developer, #Web Developer, #Entrepreneur, #Freelancer
 
@@ -24,11 +24,16 @@ Flutter and React Native Developer. Passionate #Flutter, #Android Developer, #We
 <a href="https://facebook.com/rayhanyulanda"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
 <a href="https://instagram.com/rayhanyulanda"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
 
-# Donate
+# 💰 Donate
 
 > If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
 >
 > - [PayPal](https://www.paypal.me/RayhanYulanda/)
+
+### Show some :heart: and star the repo to support the project
+
+[![GitHub stars](https://img.shields.io/github/stars/rayhanyulanda/Attendize.svg?style=social&label=Star)](https://github.com/rayhanyulanda/Attendize) [![GitHub forks](https://img.shields.io/github/forks/rayhanyulanda/Attendize.svg?style=social&label=Fork)](https://github.com/rayhanyulanda/Attendize) [![GitHub watchers](https://img.shields.io/github/watchers/rayhanyulanda/Attendize.svg?style=social&label=Watch)](https://github.com/rayhanyulanda/Attendize) [![GitHub followers](https://img.shields.io/github/followers/rayhanyulanda.svg?style=social&label=Follow)](https://github.com/rayhanyulanda/Attendize)
+[![Twitter Follow](https://img.shields.io/twitter/follow/rayhanyulanda.svg?style=social)](https://twitter.com/rayhanyulanda)
 
 ### Current Features (v1.X.X)
 ---
